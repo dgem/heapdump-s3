@@ -1,0 +1,24 @@
+{
+  "name": "heapdump-s3",
+  "version": "0.0.1",
+  "description": "periodically takes a heapdump and copies it to an s3 bucket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgem/heapdump-s3.git"
+  },
+  "keywords": [
+    "heapdump",
+    "s3",
+    "scheduled"
+  ],
+  "author": "Dan Murphy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dgem/heapdump-s3/issues"
+  },
+  "homepage": "https://github.com/dgem/heapdump-s3#readme"
+}
