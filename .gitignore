@@ -59,3 +59,11 @@ typings/
 
 # next.js build output
 .next
+
+# Terraform state etc
+.terraform
+*.tfstate
+*.tfstate.backup
+
+# Any locally produced heapdumps
+heapdump*.heapsnapshot

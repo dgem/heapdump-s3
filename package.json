@@ -1,7 +1,7 @@
 {
   "name": "heapdump-s3",
   "version": "0.0.1",
-  "description": "periodically takes a heapdump and copies it to an s3 bucket",
+  "description": "periodically takes a heapdump and copies it to a s3 bucket of your choosing",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/dgem/heapdump-s3/issues"
   },
-  "homepage": "https://github.com/dgem/heapdump-s3#readme"
+  "homepage": "https://github.com/dgem/heapdump-s3#readme",
+  "dependencies": {
+    "aws-sdk": "^2.553.0",
+    "heapdump": "^0.3.15"
+  }
 }
