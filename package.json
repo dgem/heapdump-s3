@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/dgem/heapdump-s3#readme",
   "dependencies": {
-    "aws-sdk": "^2.553.0",
+    "aws-sdk": "^2.814.0",
     "heapdump": "^0.3.15"
   }
 }
